@@ -1,9 +1,0 @@
-$(document).ready(function(){
-	$(".menu").css("display","none");
-    $(".mhead").hover(function(){$(this).css("color","red")},function(){$(this).css("color","black")});
-	$(".mhead").toggle(function(){
-		$(this).next("div").slideDown("slow");
-	},function(){
-		$(this).next("div").slideUp("slow");
-	});
-});
